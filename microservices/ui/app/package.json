@@ -8,8 +8,8 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "bewigged38",
+    "build": "bewigged38",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
