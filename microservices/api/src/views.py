@@ -75,8 +75,8 @@ def api_payment():
 		"payer": {
 			"payment_method": "paypal"},
 		"redirect_urls": {
-			"return_url": "https://app.antitank89.hasura-app.io/api/execute",
-			"cancel_url": "https://app.antitank89.hasura-app.io"
+			"return_url": "https://api.bewigged38.hasura-app.io/api/execute",
+			"cancel_url": "https://api.bewigged38.hasura-app.io"
 		},
 		"transactions": [{
 			"item_list": {

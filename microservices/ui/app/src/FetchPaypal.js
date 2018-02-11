@@ -7,8 +7,8 @@ import paypal from 'paypal-checkout';
 const PayPalButton = paypal.Button.driver('react', {React, ReactDOM});
 
 
-const CREATE_PAYMENT_URL='https://app.antitank89.hasura-app.io/api/payment';                   // url for creating payment i.e. payment() method
-const EXECUTE_PAYMENT_URL='https://app.antitank89.hasura-app.io/api/execute';             // url for executing payment i.e. authorize() method
+const CREATE_PAYMENT_URL='https://api.bewigged38.hasura-app.io/api/payment';                   // url for creating payment i.e. payment() method
+const EXECUTE_PAYMENT_URL='https://api.bewigged38.hasura-app.io/api/execute';             // url for executing payment i.e. authorize() method
 
 
 export default class FetchPaypal extends React.Component {
