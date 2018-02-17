@@ -59,6 +59,7 @@ export default class FetchPaypal extends React.Component {
             },
             body: JSON.stringify({paymentID: data.paymentID,payerID:data.payerID}),
         }) .then((data) => { 
+			alert('Transaction is completed successfully');
             console.log('payment is executed successfully');    
         })
         .catch((err)=>console.log(err))
